@@ -11,33 +11,7 @@ footer{margin-top:48px;color:rgba(255,255,255,.5);font-size:.85rem}
 </style></head><body><main>
 <h1>おはこ帳 プライバシーポリシー</h1>
 <p class="updated">最終更新：2026年10月29日</p>
-<h2>最終更新：\(Self.updated)&quot;)
-                    .font(AppFont.font(13, .text, relativeTo: .footnote))
-                    .foregroundStyle(AppColor.tertiaryText)
-                ForEach(Self.sections, id: \.title) { section in
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text(section.title)
-                            .font(AppFont.font(16, .title, relativeTo: .headline))
-                            .foregroundStyle(.white)
-                        Text(section.body)
-                            .font(AppFont.font(15, .text, relativeTo: .body))
-                            .foregroundStyle(AppColor.secondaryText)
-                            .lineSpacing(4)
-                    }
-                }
-            }
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .padding(20)
-        }
-        .background(AppColor.ink)
-        .navigationTitle(&quot;プライバシーポリシー&quot;)
-        .navigationBarTitleDisplayMode(.inline)
-    }
-
-    static let updated = &quot;2026年10月29日&quot;
-
-    static let sections: [(title: String, body: String)] = [
-        (&quot;はじめに</h2>
+<h2>はじめに</h2>
 <p>「おはこ帳」（以下「本アプリ」）は、カラオケで歌える曲とキーを記録し、歌う曲を選ぶための iOS アプリです。本アプリは開発者のサーバーを持たず、あなたの記録を開発者に送ることはありません。アカウントの作成も不要です。</p>
 <h2>本アプリが保存する情報</h2>
 <p>登録した曲（曲名・アーティスト名・ジャケットの場所・Apple の曲番号）、キー、得意度、機種、最高点、タグ、状態、歌った回数と最後に歌った日、メモ、登録日、効果音などの設定。</p>
